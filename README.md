@@ -24,8 +24,10 @@ and then there copy the class name
 ## The description of elements in .css and .html section 
 
 #### First part. Adding background 
-style_containers_on_page_1_part.css 
+style_containers_on_page_1_part.css
+
 index_containers_on_page_1_part.html
+
 
 #### Second part. Managing section (containers) in .html by .css
 
