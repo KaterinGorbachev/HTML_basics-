@@ -1,0 +1,60 @@
+/*para todo el documento html - usa * -> para margenes o relleno(padding) */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Great Vibes", cursive; /*copy from css en google fonts */
+    box-sizing: border-box; /*los elementes se adaptan a su contenidor */
+}
+
+/* un contenedor es section */
+/*section{
+
+}*/
+
+/* para un contenedor concreto uso su id */
+#main{
+    display: flex;    /* contenido flexible  es norma esta en una linea, para cambiar - poner en columna  */
+    justify-content: center;  /*alineacion horizontal si es para column - se mueve dentro de column start/left is arriba, end/right es abajo*/
+    flex-direction: column;  /* eje (axis - ось) vertical */
+    border: 1px salmon solid;
+    align-items: center; /*alineacion vertical */
+    height: 100vh; /* 100% de contenidor Specifies the height of the content area, padding area or border area (depending on 'box-sizing') of certain boxes.*/
+    background-color: #eaf4ff; /* para el fondo */
+    color: rgb(134, 33, 136); /* para el texto */
+    
+}
+
+/*para aplicar a solo un class texto*/
+.texto{
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px salmon; /* posicio x 1px, posicion y 1px, intensividad 3px */
+
+
+}
+
+.fino{
+    font-weight: 100;
+}
+ /*si main tiene flex no significa que footer tiene flex*/
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+
+}
