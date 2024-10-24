@@ -1,0 +1,127 @@
+*{
+    /*quitamos los propiedades por defecto*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*que no se salga su contenidor*/
+
+    font-family: "Exo 2", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    gap: 5px; /*separador de elementos*/
+    background-color: #a42ba6;
+    color: #D3D000;
+    padding: 50px /*vertical*/ 75px /*gorizontal*/;
+    font-size: 24px;
+    letter-spacing: 2px;
+    justify-content: space-between; /*how to change the word spacing, word-spacing does not work*/
+    word-spacing: 15px;
+    width: 100%;
+    top: 0px;
+    height: 10vh;
+
+}
+
+
+#main{
+    
+    background-color: transparent;
+    
+    
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px; /*0 ariba, 20px a lados*/
+    height: 81vh;
+    
+}
+
+#left{
+    background-color: #96fa990d;
+    display: left;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding: 20px 50px;
+    
+}
+
+h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    padding: 30px 10px;
+    color: white;
+    /*-webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;*/
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #D3D000;
+    /*border: solid red;
+    justify-content: center;*/
+}
+
+p{
+    font-weight: 500;
+    font-size: 12px;
+    padding: 30px 10px;
+}
+
+#signup{
+    width: 30%;
+    padding: 8px 10px;
+    margin: 50px 10px;
+    border: transparent;
+    border-radius: 5%;
+    cursor: pointer;
+    background: linear-gradient(90deg, #08a200, #08a200);
+    color: #D3D000;
+    letter-spacing: 3px;
+    font-size: 12px;
+    justify-content: center;
+    display: flexbox;
+    justify-content: center;
+    
+    
+}
+
+#social_media_text{
+    padding: 0px 10px;
+    margin: 0px 0px;
+    position:absolute;
+    bottom:150px;
+}
+    
+#social_media{
+    position:absolute;
+    bottom:120px;
+    padding: 0px 10px;
+    color: #10138A;
+
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: transparent;
+    
+    
+    
+}
+
+#right{ 
+    background-color: transparent;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
