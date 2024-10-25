@@ -30,6 +30,8 @@ index_containers_on_page_1_part.html
 
 Link to get gradient background https://cssgradient.io/
 
+To check accessibility of text and background https://color.adobe.com/create/color-contrast-analyzer
+
 Link on color weel https://color.adobe.com/create/color-wheel
 
 
