@@ -28,6 +28,10 @@ style_containers_on_page_1_part.css
 
 index_containers_on_page_1_part.html
 
+Link to get gradient background https://cssgradient.io/
+
+Link on color weel https://color.adobe.com/create/color-wheel
+
 
 #### Second part. Managing section (containers) in .html by .css
 
