@@ -1,5 +1,6 @@
 # HTML_basics-
 The collection of educational HTML and CSS files with comments 
+
 More info about CSS for HTML https://developer.mozilla.org/en-US/docs/Web/CSS
 
 ---
