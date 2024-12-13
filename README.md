@@ -40,5 +40,6 @@ Link on color weel https://color.adobe.com/create/color-wheel
 #### Second part. Managing section (containers) in .html by .css
 
 home_hierba_buena.html
+
 style_hierba_buena.css
 
