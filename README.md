@@ -19,7 +19,7 @@ Get HTML lines on https://fontawesome.com/search?m=free&o=r
 
 #### How to add animation 
 Get a link on https://animate.style/
-and then there copy the class name 
+and then copy the class name 
 
 ---
 
@@ -32,10 +32,13 @@ index_containers_on_page_1_part.html
 
 Link to get gradient background https://cssgradient.io/
 
-To check accessibility of text and background https://color.adobe.com/create/color-contrast-analyzer
+To check the accessibility of text and background https://color.adobe.com/create/color-contrast-analyzer
 
 Link on color weel https://color.adobe.com/create/color-wheel
 
 
 #### Second part. Managing section (containers) in .html by .css
+
+home_hierba_buena.html
+style_hierba_buena.css
 
